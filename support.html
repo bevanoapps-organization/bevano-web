@@ -6,12 +6,18 @@
   <title>Support - Bevano</title>
   <meta name="description" content="Get help with Bevano. Contact us or browse frequently asked questions." />
   <link rel="canonical" href="https://bevano.app/support" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,16,400&display=swap" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <nav class="nav">
-    <a href="/" class="nav__brand">bevano</a>
+    <a href="/" class="nav__brand">
+      <img src="assets/icon.svg" alt="Bevano" />
+      <span>bevano</span>
+    </a>
     <div class="nav__links">
       <a href="/support">Support</a>
       <a href="/privacy">Privacy</a>
@@ -80,12 +86,20 @@
     </div>
   </div>
 
-  <footer class="footer">
-    <p>© 2026 Bevano. All rights reserved.</p>
-    <div class="footer__links">
-      <a href="/privacy">Privacy Policy</a>
-      <a href="/support">Support</a>
-      <a href="mailto:hello@bevano.app">hello@bevano.app</a>
+  <footer class="site-footer">
+    <div class="section section--tight container">
+      <div class="spread" style="flex-wrap: wrap; gap: var(--s-5);">
+        <div class="row" style="gap: var(--s-3);">
+          <img src="assets/icon.svg" style="width: 28px; height: 28px; border-radius: 7px; flex-shrink: 0;" alt="" />
+          <strong>bevano</strong>
+          <span class="faint">© 2026</span>
+        </div>
+        <div class="cluster">
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/support">Support</a>
+          <a href="mailto:hello@bevano.app">hello@bevano.app</a>
+        </div>
+      </div>
     </div>
   </footer>
 
