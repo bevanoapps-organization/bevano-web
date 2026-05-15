@@ -267,10 +267,6 @@ a:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 4px; }
 .phone-card-line { height: 7px; border-radius: 4px; background: rgba(239,227,207,0.15); }
 .phone-card-line.short { width: 55%; }
 
-/* ── Intro sub-header ──────────────────────────────────────────────────── */
-.intro { border-top: 1px solid var(--divider); }
-.intro h2 { margin: 0 0 var(--s-5); }
-
 /* ── Features section ──────────────────────────────────────────────────── */
 .features-head { max-width: 640px; margin-bottom: var(--s-8); }
 .features-head h2 { margin: 0; }
