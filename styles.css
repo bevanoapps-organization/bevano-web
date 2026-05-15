@@ -217,11 +217,12 @@ a:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 4px; }
   cursor: pointer; text-decoration: none; background-image: none;
   transition: transform var(--t-fast) var(--ease-out), background var(--t-fast) var(--ease-out), box-shadow var(--t-fast) var(--ease-out);
 }
+.btn, .btn:link, .btn:visited { color: var(--text-on-primary); }
 .btn:hover { background: var(--primary-hover); transform: translateY(-1px); box-shadow: var(--shadow-sm); background-image: none; color: var(--text-on-primary); }
 .btn:active { background: var(--primary-active); transform: translateY(0); }
-.btn--accent { background: var(--accent); color: var(--text-on-accent); }
+.btn--accent, .btn--accent:link, .btn--accent:visited { background: var(--accent); color: var(--text-on-accent); }
 .btn--accent:hover { background: var(--accent-hover); color: var(--text-on-accent); }
-.btn--ghost { background: transparent; color: var(--text); border-color: var(--border); }
+.btn--ghost, .btn--ghost:link, .btn--ghost:visited { background: transparent; color: var(--text); border-color: var(--border); }
 .btn--ghost:hover { background: var(--surface-muted); border-color: var(--border-strong); }
 .btn--lg { padding: 16px 28px; font-size: var(--step-0); }
 .btn--sm { padding: 8px 14px; font-size: var(--step--2); }
