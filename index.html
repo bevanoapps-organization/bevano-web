@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bevano -Your coffee journey, logged.</title>
+  <title>Bevano - Your coffee journey, logged.</title>
   <meta name="description" content="Bevano is the specialty coffee app for people who take their cup seriously. Browse a curated catalog, log every coffee you try, and discover what you love." />
-  <meta property="og:title" content="Bevano -Your coffee journey, logged." />
+  <meta property="og:title" content="Bevano - Your coffee journey, logged." />
   <meta property="og:description" content="The specialty coffee app for people who take their cup seriously." />
   <meta property="og:url" content="https://bevano.app" />
   <link rel="canonical" href="https://bevano.app" />
@@ -14,9 +14,9 @@
 <body>
 
   <!-- Nav -->
-  <nav>
-    <a href="/" class="nav-logo">bevano</a>
-    <div class="nav-links">
+  <nav class="nav">
+    <a href="/" class="nav__brand">bevano</a>
+    <div class="nav__links">
       <a href="/support">Support</a>
       <a href="/privacy">Privacy</a>
       <span style="font-size: 13px; font-weight: 600; color: var(--accent);">Coming Soon</span>
@@ -24,97 +24,105 @@
   </nav>
 
   <!-- Hero -->
-  <div class="hero">
-    <div class="hero-text">
-      <span class="hero-eyebrow">Coming soon to iOS</span>
-      <h1>Your coffee journey, logged.</h1>
-      <p>Bevano is the specialty coffee app for people who take their cup seriously. Browse a curated catalog, log every coffee you try, and discover what you love.</p>
-      <div class="hero-cta">
-        <a href="mailto:hello@bevano.app" class="btn">Get notified at launch</a>
-        <span class="hero-note">Free to download</span>
-      </div>
-    </div>
+  <div class="section">
+    <div class="container">
+      <div class="hero">
+        <div class="hero__text">
+          <span class="eyebrow">Coming soon to iOS</span>
+          <h1 class="hero__title">Your coffee journey, logged.</h1>
+          <p class="hero__lede">Bevano is the specialty coffee app for people who take their cup seriously. Browse a curated catalog, log every coffee you try, and discover what you love.</p>
+          <div class="hero__actions">
+            <a href="mailto:hello@bevano.app" class="btn">Get notified at launch</a>
+            <span class="hero__note">Free to download</span>
+          </div>
+        </div>
 
-    <div class="hero-visual">
-      <div class="phone">
-        <div class="phone-notch"></div>
-        <div class="phone-screen">
-          <div class="phone-title">Browse</div>
-          <div class="phone-search"></div>
-          <div class="phone-chips">
-            <div class="phone-chip active"></div>
-            <div class="phone-chip"></div>
-            <div class="phone-chip"></div>
-          </div>
-          <div class="phone-card">
-            <div class="phone-card-img"></div>
-            <div class="phone-card-lines">
-              <div class="phone-card-line"></div>
-              <div class="phone-card-line short"></div>
-            </div>
-          </div>
-          <div class="phone-card">
-            <div class="phone-card-img" style="background: linear-gradient(135deg, #6b3a20 0%, #3d2518 100%);"></div>
-            <div class="phone-card-lines">
-              <div class="phone-card-line"></div>
-              <div class="phone-card-line short"></div>
-            </div>
-          </div>
-          <div class="phone-card">
-            <div class="phone-card-img" style="background: linear-gradient(135deg, #8f5a33 0%, #A56A3E 100%);"></div>
-            <div class="phone-card-lines">
-              <div class="phone-card-line"></div>
-              <div class="phone-card-line short"></div>
+        <div class="hero__phone">
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="phone-title">Browse</div>
+              <div class="phone-search"></div>
+              <div class="phone-chips">
+                <div class="phone-chip active"></div>
+                <div class="phone-chip"></div>
+                <div class="phone-chip"></div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-img"></div>
+                <div class="phone-card-lines">
+                  <div class="phone-card-line"></div>
+                  <div class="phone-card-line short"></div>
+                </div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-img" style="background: linear-gradient(135deg, #6b3a20 0%, #3d2518 100%);"></div>
+                <div class="phone-card-lines">
+                  <div class="phone-card-line"></div>
+                  <div class="phone-card-line short"></div>
+                </div>
+              </div>
+              <div class="phone-card">
+                <div class="phone-card-img" style="background: linear-gradient(135deg, #8f5a33 0%, #A56A3E 100%);"></div>
+                <div class="phone-card-lines">
+                  <div class="phone-card-line"></div>
+                  <div class="phone-card-line short"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <div class="hero__art"></div>
       </div>
     </div>
   </div>
 
   <!-- Features -->
-  <section>
-    <div class="section-inner">
+  <div class="section section--tight">
+    <div class="container">
       <p class="section-label">What you get</p>
       <h2 class="section-heading">Everything a coffee person needs.</h2>
-      <p class="section-sub">Bevano keeps it focused -no noise, just the tools that help you find and remember great coffee.</p>
-      <div class="features-grid">
-        <div class="feature-card">
+      <p class="section-sub">Bevano keeps it focused - no noise, just the tools that help you find and remember great coffee.</p>
+      <div class="grid grid-3">
+        <div class="card">
           <span class="feature-icon">☕</span>
           <h3>Browse the catalog</h3>
           <p>Hundreds of specialty coffees from the world's best roasters, filterable by origin, process, and roast level.</p>
         </div>
-        <div class="feature-card">
+        <div class="card">
           <span class="feature-icon">📋</span>
           <h3>Log what you drink</h3>
-          <p>Rate every cup with a 1–5 bean score, record your brew method, and keep personal tasting notes -private or shared with the community.</p>
+          <p>Rate every cup with a 1-5 bean score, record your brew method, and keep personal tasting notes - private or shared with the community.</p>
         </div>
-        <div class="feature-card">
+        <div class="card">
           <span class="feature-icon">🌍</span>
           <h3>Discover your palate</h3>
           <p>Your logged coffees reveal patterns. Find the origins, processes, and roasters you keep coming back to.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Quote -->
-  <div class="quote-section">
-    <div class="section-inner">
+  <div class="quote-band">
+    <div class="container">
       <blockquote>Built for the person who knows the difference between washed and natural, and actually cares.</blockquote>
     </div>
   </div>
 
   <!-- CTA -->
   <div class="cta-band">
-    <h2>Be first to know when we launch.</h2>
-    <a href="mailto:hello@bevano.app" class="btn">Get notified at launch</a>
+    <div class="container">
+      <h2>Be first to know when we launch.</h2>
+      <a href="mailto:hello@bevano.app" class="btn">Get notified at launch</a>
+    </div>
   </div>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <p>© 2026 Bevano. All rights reserved.</p>
-    <div class="footer-links">
+    <div class="footer__links">
       <a href="/privacy">Privacy Policy</a>
       <a href="/support">Support</a>
       <a href="mailto:hello@bevano.app">hello@bevano.app</a>
