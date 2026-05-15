@@ -217,7 +217,7 @@ a:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 4px; }
   cursor: pointer; text-decoration: none; background-image: none;
   transition: transform var(--t-fast) var(--ease-out), background var(--t-fast) var(--ease-out), box-shadow var(--t-fast) var(--ease-out);
 }
-.btn, .btn:link, .btn:visited { color: var(--text-on-primary); }
+.btn, .btn:link, .btn:visited { color: var(--text-on-primary); background-image: none; }
 .btn:hover { background: var(--primary-hover); transform: translateY(-1px); box-shadow: var(--shadow-sm); background-image: none; color: var(--text-on-primary); }
 .btn:active { background: var(--primary-active); transform: translateY(0); }
 .btn--accent, .btn--accent:link, .btn--accent:visited { background: var(--accent); color: var(--text-on-accent); }
